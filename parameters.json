@@ -1,0 +1,559 @@
+[{
+  "_id": {
+    "$oid": "66aaa0e284df827667fff56a"
+  },
+  "name": "pH",
+  "analysisType": {
+    "$oid": "66aa9a339cf01fcf6a55fbf5"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa0ec84df827667fff56c"
+  },
+  "name": "iletkenlik",
+  "analysisType": {
+    "$oid": "66aa9a339cf01fcf6a55fbf5"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa0f184df827667fff56e"
+  },
+  "name": "ço",
+  "analysisType": {
+    "$oid": "66aa9a339cf01fcf6a55fbf5"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa0f684df827667fff570"
+  },
+  "name": "od",
+  "analysisType": {
+    "$oid": "66aa9a339cf01fcf6a55fbf5"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa0fb84df827667fff572"
+  },
+  "name": "eH",
+  "analysisType": {
+    "$oid": "66aa9a339cf01fcf6a55fbf5"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa10984df827667fff574"
+  },
+  "name": "tuzluluk",
+  "analysisType": {
+    "$oid": "66aa9a339cf01fcf6a55fbf5"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa10d84df827667fff576"
+  },
+  "name": "sıcaklık",
+  "analysisType": {
+    "$oid": "66aa9a339cf01fcf6a55fbf5"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa11784df827667fff578"
+  },
+  "name": "derinlik",
+  "analysisType": {
+    "$oid": "66aa9a339cf01fcf6a55fbf5"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa11b84df827667fff57a"
+  },
+  "name": "debi",
+  "analysisType": {
+    "$oid": "66aa9a339cf01fcf6a55fbf5"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa12a84df827667fff57c"
+  },
+  "name": "amonyum-n",
+  "analysisType": {
+    "$oid": "66aa9a339cf01fcf6a55fbf5"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa12f84df827667fff57e"
+  },
+  "name": "amonyum",
+  "analysisType": {
+    "$oid": "66aa9a339cf01fcf6a55fbf5"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa13884df827667fff580"
+  },
+  "name": "nitrat-n",
+  "analysisType": {
+    "$oid": "66aa9a339cf01fcf6a55fbf5"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa13c84df827667fff582"
+  },
+  "name": "nitrat",
+  "analysisType": {
+    "$oid": "66aa9a339cf01fcf6a55fbf5"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa14584df827667fff584"
+  },
+  "name": "nitrit-n",
+  "analysisType": {
+    "$oid": "66aa9a339cf01fcf6a55fbf5"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa14984df827667fff586"
+  },
+  "name": "nitrit",
+  "analysisType": {
+    "$oid": "66aa9a339cf01fcf6a55fbf5"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa16d84df827667fff588"
+  },
+  "name": "t. siyanür",
+  "analysisType": {
+    "$oid": "66aa9a339cf01fcf6a55fbf5"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa17284df827667fff58a"
+  },
+  "name": "s. siyanür",
+  "analysisType": {
+    "$oid": "66aa9a339cf01fcf6a55fbf5"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa17684df827667fff58c"
+  },
+  "name": "w. siyanür",
+  "analysisType": {
+    "$oid": "66aa9a339cf01fcf6a55fbf5"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa18984df827667fff58e"
+  },
+  "name": "t. fosfor",
+  "analysisType": {
+    "$oid": "66aa9a339cf01fcf6a55fbf5"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa19184df827667fff590"
+  },
+  "name": "f. fosforu",
+  "analysisType": {
+    "$oid": "66aa9a339cf01fcf6a55fbf5"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa19784df827667fff592"
+  },
+  "name": "renk",
+  "analysisType": {
+    "$oid": "66aa9a339cf01fcf6a55fbf5"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa1a184df827667fff594"
+  },
+  "name": "bulanıklık",
+  "analysisType": {
+    "$oid": "66aa9a339cf01fcf6a55fbf5"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa1a984df827667fff596"
+  },
+  "name": "sülfat",
+  "analysisType": {
+    "$oid": "66aa9a339cf01fcf6a55fbf5"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa1ad84df827667fff598"
+  },
+  "name": "sülfit",
+  "analysisType": {
+    "$oid": "66aa9a339cf01fcf6a55fbf5"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa1b284df827667fff59a"
+  },
+  "name": "sülfür",
+  "analysisType": {
+    "$oid": "66aa9a339cf01fcf6a55fbf5"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa21084df827667fff59c"
+  },
+  "name": "yam - 100",
+  "analysisType": {
+    "$oid": "66aa9a339cf01fcf6a55fbf5"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa21584df827667fff59e"
+  },
+  "name": "yam - 250",
+  "analysisType": {
+    "$oid": "66aa9a339cf01fcf6a55fbf5"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa22a84df827667fff5a0"
+  },
+  "name": "klorofil - a",
+  "analysisType": {
+    "$oid": "66aa9a339cf01fcf6a55fbf5"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa23b84df827667fff5a2"
+  },
+  "name": "fenol",
+  "analysisType": {
+    "$oid": "66aa9a339cf01fcf6a55fbf5"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa24084df827667fff5a4"
+  },
+  "name": "florür",
+  "analysisType": {
+    "$oid": "66aa9a339cf01fcf6a55fbf5"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa2b484df827667fff5a7"
+  },
+  "name": "askıda katı madde",
+  "analysisType": {
+    "$oid": "66aa9a3f9cf01fcf6a55fbf7"
+  },
+  "contentType": {
+    "$oid": "66aa9da69e7e9ee7b7a9b800"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa2c084df827667fff5a9"
+  },
+  "name": "yağ ve gres",
+  "analysisType": {
+    "$oid": "66aa9a3f9cf01fcf6a55fbf7"
+  },
+  "contentType": {
+    "$oid": "66aa9da69e7e9ee7b7a9b800"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa2d984df827667fff5ab"
+  },
+  "name": "toplam çözünmüş madde",
+  "analysisType": {
+    "$oid": "66aa9a3f9cf01fcf6a55fbf7"
+  },
+  "contentType": {
+    "$oid": "66aa9da69e7e9ee7b7a9b800"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa31384df827667fff5ad"
+  },
+  "name": "kimyasal oksijen ihtiyacı",
+  "analysisType": {
+    "$oid": "66aa9a489cf01fcf6a55fbf9"
+  },
+  "contentType": {
+    "$oid": "66aa9de69e7e9ee7b7a9b802"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa31e84df827667fff5af"
+  },
+  "name": "klorür",
+  "analysisType": {
+    "$oid": "66aa9a489cf01fcf6a55fbf9"
+  },
+  "contentType": {
+    "$oid": "66aa9de69e7e9ee7b7a9b802"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa33584df827667fff5b1"
+  },
+  "name": "amonyum-n titrimetrik",
+  "analysisType": {
+    "$oid": "66aa9a489cf01fcf6a55fbf9"
+  },
+  "contentType": {
+    "$oid": "66aa9de69e7e9ee7b7a9b802"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa34284df827667fff5b3"
+  },
+  "name": "toplam khjeldal azotu",
+  "analysisType": {
+    "$oid": "66aa9a489cf01fcf6a55fbf9"
+  },
+  "contentType": {
+    "$oid": "66aa9de69e7e9ee7b7a9b802"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa3a984df827667fff5b5"
+  },
+  "name": "biyolojik oksijen ihtiyacı",
+  "analysisType": {
+    "$oid": "66aa9a729cf01fcf6a55fbfb"
+  },
+  "contentType": {
+    "$oid": "66aa9f769e7e9ee7b7a9b806"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa3d484df827667fff5b7"
+  },
+  "name": "toplam katı madde",
+  "analysisType": {
+    "$oid": "66aa9a879cf01fcf6a55fbfd"
+  },
+  "contentType": {
+    "$oid": "66aa9e6b9e7e9ee7b7a9b804"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa3de84df827667fff5b9"
+  },
+  "name": "toplam azot",
+  "analysisType": {
+    "$oid": "66aa9a879cf01fcf6a55fbfd"
+  },
+  "contentType": {
+    "$oid": "66aa9e6b9e7e9ee7b7a9b804"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa3e684df827667fff5bb"
+  },
+  "name": "alkalinite",
+  "analysisType": {
+    "$oid": "66aa9a879cf01fcf6a55fbfd"
+  },
+  "contentType": {
+    "$oid": "66aa9e6b9e7e9ee7b7a9b804"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa3ed84df827667fff5bd"
+  },
+  "name": "bikarbonat",
+  "analysisType": {
+    "$oid": "66aa9a879cf01fcf6a55fbfd"
+  },
+  "contentType": {
+    "$oid": "66aa9e6b9e7e9ee7b7a9b804"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aaa3f384df827667fff5bf"
+  },
+  "name": "karbonat",
+  "analysisType": {
+    "$oid": "66aa9a879cf01fcf6a55fbfd"
+  },
+  "contentType": {
+    "$oid": "66aa9e6b9e7e9ee7b7a9b804"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66ab6511f2c0531434cba8ef"
+  },
+  "name": "askıda katı madde",
+  "analysisType": {
+    "$oid": "66aa9a3f9cf01fcf6a55fbf7"
+  },
+  "contentType": {
+    "$oid": "66aa9da69e7e9ee7b7a9b800"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66ab651cf2c0531434cba8f1"
+  },
+  "name": "yağ ve gres",
+  "analysisType": {
+    "$oid": "66aa9a3f9cf01fcf6a55fbf7"
+  },
+  "contentType": {
+    "$oid": "66aa9da69e7e9ee7b7a9b800"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66ab652bf2c0531434cba8f3"
+  },
+  "name": "toplam çözünmüş madde",
+  "analysisType": {
+    "$oid": "66aa9a3f9cf01fcf6a55fbf7"
+  },
+  "contentType": {
+    "$oid": "66aa9da69e7e9ee7b7a9b800"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66ab6577f2c0531434cba8f5"
+  },
+  "name": "klorür",
+  "analysisType": {
+    "$oid": "66aa9a489cf01fcf6a55fbf9"
+  },
+  "contentType": {
+    "$oid": "66aa9de69e7e9ee7b7a9b802"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66ab6582f2c0531434cba8f7"
+  },
+  "name": "toplam khjeldal azotu",
+  "analysisType": {
+    "$oid": "66aa9a489cf01fcf6a55fbf9"
+  },
+  "contentType": {
+    "$oid": "66aa9de69e7e9ee7b7a9b802"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66ab658ff2c0531434cba8f9"
+  },
+  "name": "kimyasal oksijen ihtiyacı",
+  "analysisType": {
+    "$oid": "66aa9a489cf01fcf6a55fbf9"
+  },
+  "contentType": {
+    "$oid": "66aa9de69e7e9ee7b7a9b802"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66ab65c8f2c0531434cba8fb"
+  },
+  "name": "biyolojik oksijen ihtiyacı",
+  "analysisType": {
+    "$oid": "66aa9a729cf01fcf6a55fbfb"
+  },
+  "contentType": {
+    "$oid": "66aa9f769e7e9ee7b7a9b806"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66ab662df2c0531434cba8fd"
+  },
+  "name": "alkalinite",
+  "analysisType": {
+    "$oid": "66aa9a879cf01fcf6a55fbfd"
+  },
+  "contentType": {
+    "$oid": "66aa9e6b9e7e9ee7b7a9b804"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66ab6634f2c0531434cba8ff"
+  },
+  "name": "karbonat",
+  "analysisType": {
+    "$oid": "66aa9a879cf01fcf6a55fbfd"
+  },
+  "contentType": {
+    "$oid": "66aa9e6b9e7e9ee7b7a9b804"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66ab663cf2c0531434cba901"
+  },
+  "name": "bikarbonat",
+  "analysisType": {
+    "$oid": "66aa9a879cf01fcf6a55fbfd"
+  },
+  "contentType": {
+    "$oid": "66aa9e6b9e7e9ee7b7a9b804"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66ab6741f2c0531434cba903"
+  },
+  "name": "toplam katı madde",
+  "analysisType": {
+    "$oid": "66aa9a879cf01fcf6a55fbfd"
+  },
+  "contentType": {
+    "$oid": "66aa9e6b9e7e9ee7b7a9b804"
+  },
+  "__v": 0
+}]

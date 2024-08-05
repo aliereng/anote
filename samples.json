@@ -1,0 +1,761 @@
+[{
+  "_id": {
+    "$oid": "66aab2557ab9e63fc748e172"
+  },
+  "name": "NSU-24/001",
+  "sampleType": {
+    "$oid": "66aa8ca8977bd5c84f0890dd"
+  },
+  "acceptDate": {
+    "$date": {
+      "$numberLong": "1722462805404"
+    }
+  },
+  "parameters": [
+    {
+      "$oid": "66aaa0e284df827667fff56a"
+    },
+    {
+      "$oid": "66aaa0ec84df827667fff56c"
+    },
+    {
+      "$oid": "66aaa0f184df827667fff56e"
+    },
+    {
+      "$oid": "66aaa0f684df827667fff570"
+    },
+    {
+      "$oid": "66aaa0fb84df827667fff572"
+    },
+    {
+      "$oid": "66aaa10984df827667fff574"
+    },
+    {
+      "$oid": "66aaa12a84df827667fff57c"
+    },
+    {
+      "$oid": "66aaa13884df827667fff580"
+    },
+    {
+      "$oid": "66aaa14584df827667fff584"
+    },
+    {
+      "$oid": "66aaa16d84df827667fff588"
+    },
+    {
+      "$oid": "66aaa2b484df827667fff5a7"
+    },
+    {
+      "$oid": "66aaa2d984df827667fff5ab"
+    },
+    {
+      "$oid": "66aaa31384df827667fff5ad"
+    },
+    {
+      "$oid": "66aaa31e84df827667fff5af"
+    },
+    {
+      "$oid": "66aaa34284df827667fff5b3"
+    },
+    {
+      "$oid": "66aaa3a984df827667fff5b5"
+    },
+    {
+      "$oid": "66aaa3d484df827667fff5b7"
+    },
+    {
+      "$oid": "66aaa3e684df827667fff5bb"
+    },
+    {
+      "$oid": "66aaa3ed84df827667fff5bd"
+    },
+    {
+      "$oid": "66aaa3f384df827667fff5bf"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aab25f7ab9e63fc748e174"
+  },
+  "name": "NSU-24/002",
+  "sampleType": {
+    "$oid": "66aa8ca8977bd5c84f0890dd"
+  },
+  "acceptDate": {
+    "$date": {
+      "$numberLong": "1722462815574"
+    }
+  },
+  "parameters": [
+    {
+      "$oid": "66aaa0e284df827667fff56a"
+    },
+    {
+      "$oid": "66aaa0ec84df827667fff56c"
+    },
+    {
+      "$oid": "66aaa0f184df827667fff56e"
+    },
+    {
+      "$oid": "66aaa0f684df827667fff570"
+    },
+    {
+      "$oid": "66aaa0fb84df827667fff572"
+    },
+    {
+      "$oid": "66aaa10984df827667fff574"
+    },
+    {
+      "$oid": "66aaa12a84df827667fff57c"
+    },
+    {
+      "$oid": "66aaa13884df827667fff580"
+    },
+    {
+      "$oid": "66aaa14584df827667fff584"
+    },
+    {
+      "$oid": "66aaa16d84df827667fff588"
+    },
+    {
+      "$oid": "66aaa2b484df827667fff5a7"
+    },
+    {
+      "$oid": "66aaa2d984df827667fff5ab"
+    },
+    {
+      "$oid": "66aaa31384df827667fff5ad"
+    },
+    {
+      "$oid": "66aaa31e84df827667fff5af"
+    },
+    {
+      "$oid": "66aaa34284df827667fff5b3"
+    },
+    {
+      "$oid": "66aaa3a984df827667fff5b5"
+    },
+    {
+      "$oid": "66aaa3d484df827667fff5b7"
+    },
+    {
+      "$oid": "66aaa3e684df827667fff5bb"
+    },
+    {
+      "$oid": "66aaa3ed84df827667fff5bd"
+    },
+    {
+      "$oid": "66aaa3f384df827667fff5bf"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aab2637ab9e63fc748e176"
+  },
+  "name": "NSU-24/003",
+  "sampleType": {
+    "$oid": "66aa8ca8977bd5c84f0890dd"
+  },
+  "acceptDate": {
+    "$date": {
+      "$numberLong": "1722462819771"
+    }
+  },
+  "parameters": [
+    {
+      "$oid": "66aaa0e284df827667fff56a"
+    },
+    {
+      "$oid": "66aaa0ec84df827667fff56c"
+    },
+    {
+      "$oid": "66aaa0f184df827667fff56e"
+    },
+    {
+      "$oid": "66aaa0f684df827667fff570"
+    },
+    {
+      "$oid": "66aaa0fb84df827667fff572"
+    },
+    {
+      "$oid": "66aaa10984df827667fff574"
+    },
+    {
+      "$oid": "66aaa12a84df827667fff57c"
+    },
+    {
+      "$oid": "66aaa13884df827667fff580"
+    },
+    {
+      "$oid": "66aaa14584df827667fff584"
+    },
+    {
+      "$oid": "66aaa16d84df827667fff588"
+    },
+    {
+      "$oid": "66aaa2b484df827667fff5a7"
+    },
+    {
+      "$oid": "66aaa2d984df827667fff5ab"
+    },
+    {
+      "$oid": "66aaa31384df827667fff5ad"
+    },
+    {
+      "$oid": "66aaa31e84df827667fff5af"
+    },
+    {
+      "$oid": "66aaa34284df827667fff5b3"
+    },
+    {
+      "$oid": "66aaa3a984df827667fff5b5"
+    },
+    {
+      "$oid": "66aaa3d484df827667fff5b7"
+    },
+    {
+      "$oid": "66aaa3e684df827667fff5bb"
+    },
+    {
+      "$oid": "66aaa3ed84df827667fff5bd"
+    },
+    {
+      "$oid": "66aaa3f384df827667fff5bf"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aab2677ab9e63fc748e178"
+  },
+  "name": "NSU-24/004",
+  "sampleType": {
+    "$oid": "66aa8ca8977bd5c84f0890dd"
+  },
+  "acceptDate": {
+    "$date": {
+      "$numberLong": "1722462823833"
+    }
+  },
+  "parameters": [
+    {
+      "$oid": "66aaa0e284df827667fff56a"
+    },
+    {
+      "$oid": "66aaa0ec84df827667fff56c"
+    },
+    {
+      "$oid": "66aaa0f184df827667fff56e"
+    },
+    {
+      "$oid": "66aaa0f684df827667fff570"
+    },
+    {
+      "$oid": "66aaa0fb84df827667fff572"
+    },
+    {
+      "$oid": "66aaa10984df827667fff574"
+    },
+    {
+      "$oid": "66aaa12a84df827667fff57c"
+    },
+    {
+      "$oid": "66aaa13884df827667fff580"
+    },
+    {
+      "$oid": "66aaa14584df827667fff584"
+    },
+    {
+      "$oid": "66aaa16d84df827667fff588"
+    },
+    {
+      "$oid": "66aaa2b484df827667fff5a7"
+    },
+    {
+      "$oid": "66aaa2d984df827667fff5ab"
+    },
+    {
+      "$oid": "66aaa31384df827667fff5ad"
+    },
+    {
+      "$oid": "66aaa31e84df827667fff5af"
+    },
+    {
+      "$oid": "66aaa34284df827667fff5b3"
+    },
+    {
+      "$oid": "66aaa3a984df827667fff5b5"
+    },
+    {
+      "$oid": "66aaa3d484df827667fff5b7"
+    },
+    {
+      "$oid": "66aaa3e684df827667fff5bb"
+    },
+    {
+      "$oid": "66aaa3ed84df827667fff5bd"
+    },
+    {
+      "$oid": "66aaa3f384df827667fff5bf"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aab26c7ab9e63fc748e17a"
+  },
+  "name": "NSU-24/005",
+  "sampleType": {
+    "$oid": "66aa8ca8977bd5c84f0890dd"
+  },
+  "acceptDate": {
+    "$date": {
+      "$numberLong": "1722462828023"
+    }
+  },
+  "parameters": [
+    {
+      "$oid": "66aaa0e284df827667fff56a"
+    },
+    {
+      "$oid": "66aaa0ec84df827667fff56c"
+    },
+    {
+      "$oid": "66aaa0f184df827667fff56e"
+    },
+    {
+      "$oid": "66aaa0f684df827667fff570"
+    },
+    {
+      "$oid": "66aaa0fb84df827667fff572"
+    },
+    {
+      "$oid": "66aaa10984df827667fff574"
+    },
+    {
+      "$oid": "66aaa12a84df827667fff57c"
+    },
+    {
+      "$oid": "66aaa13884df827667fff580"
+    },
+    {
+      "$oid": "66aaa14584df827667fff584"
+    },
+    {
+      "$oid": "66aaa16d84df827667fff588"
+    },
+    {
+      "$oid": "66aaa2b484df827667fff5a7"
+    },
+    {
+      "$oid": "66aaa2d984df827667fff5ab"
+    },
+    {
+      "$oid": "66aaa31384df827667fff5ad"
+    },
+    {
+      "$oid": "66aaa31e84df827667fff5af"
+    },
+    {
+      "$oid": "66aaa34284df827667fff5b3"
+    },
+    {
+      "$oid": "66aaa3a984df827667fff5b5"
+    },
+    {
+      "$oid": "66aaa3d484df827667fff5b7"
+    },
+    {
+      "$oid": "66aaa3e684df827667fff5bb"
+    },
+    {
+      "$oid": "66aaa3ed84df827667fff5bd"
+    },
+    {
+      "$oid": "66aaa3f384df827667fff5bf"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aab2a77ab9e63fc748e17d"
+  },
+  "name": "NS-24/001",
+  "sampleType": {
+    "$oid": "66aa8cb8977bd5c84f0890df"
+  },
+  "acceptDate": {
+    "$date": {
+      "$numberLong": "1722462887240"
+    }
+  },
+  "parameters": [
+    {
+      "$oid": "66aaa0e284df827667fff56a"
+    },
+    {
+      "$oid": "66aaa0ec84df827667fff56c"
+    },
+    {
+      "$oid": "66aaa0f184df827667fff56e"
+    },
+    {
+      "$oid": "66aaa0f684df827667fff570"
+    },
+    {
+      "$oid": "66aaa0fb84df827667fff572"
+    },
+    {
+      "$oid": "66aaa10984df827667fff574"
+    },
+    {
+      "$oid": "66aaa12a84df827667fff57c"
+    },
+    {
+      "$oid": "66aaa13884df827667fff580"
+    },
+    {
+      "$oid": "66aaa14584df827667fff584"
+    },
+    {
+      "$oid": "66aaa16d84df827667fff588"
+    },
+    {
+      "$oid": "66aaa2b484df827667fff5a7"
+    },
+    {
+      "$oid": "66aaa2d984df827667fff5ab"
+    },
+    {
+      "$oid": "66aaa31384df827667fff5ad"
+    },
+    {
+      "$oid": "66aaa31e84df827667fff5af"
+    },
+    {
+      "$oid": "66aaa34284df827667fff5b3"
+    },
+    {
+      "$oid": "66aaa3a984df827667fff5b5"
+    },
+    {
+      "$oid": "66aaa3d484df827667fff5b7"
+    },
+    {
+      "$oid": "66aaa3e684df827667fff5bb"
+    },
+    {
+      "$oid": "66aaa3ed84df827667fff5bd"
+    },
+    {
+      "$oid": "66aaa3f384df827667fff5bf"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aab2ac7ab9e63fc748e17f"
+  },
+  "name": "NS-24/002",
+  "sampleType": {
+    "$oid": "66aa8cb8977bd5c84f0890df"
+  },
+  "acceptDate": {
+    "$date": {
+      "$numberLong": "1722462892236"
+    }
+  },
+  "parameters": [
+    {
+      "$oid": "66aaa0e284df827667fff56a"
+    },
+    {
+      "$oid": "66aaa0ec84df827667fff56c"
+    },
+    {
+      "$oid": "66aaa0f184df827667fff56e"
+    },
+    {
+      "$oid": "66aaa0f684df827667fff570"
+    },
+    {
+      "$oid": "66aaa0fb84df827667fff572"
+    },
+    {
+      "$oid": "66aaa10984df827667fff574"
+    },
+    {
+      "$oid": "66aaa12a84df827667fff57c"
+    },
+    {
+      "$oid": "66aaa13884df827667fff580"
+    },
+    {
+      "$oid": "66aaa14584df827667fff584"
+    },
+    {
+      "$oid": "66aaa16d84df827667fff588"
+    },
+    {
+      "$oid": "66aaa2b484df827667fff5a7"
+    },
+    {
+      "$oid": "66aaa2d984df827667fff5ab"
+    },
+    {
+      "$oid": "66aaa31384df827667fff5ad"
+    },
+    {
+      "$oid": "66aaa31e84df827667fff5af"
+    },
+    {
+      "$oid": "66aaa34284df827667fff5b3"
+    },
+    {
+      "$oid": "66aaa3a984df827667fff5b5"
+    },
+    {
+      "$oid": "66aaa3d484df827667fff5b7"
+    },
+    {
+      "$oid": "66aaa3e684df827667fff5bb"
+    },
+    {
+      "$oid": "66aaa3ed84df827667fff5bd"
+    },
+    {
+      "$oid": "66aaa3f384df827667fff5bf"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aab2b07ab9e63fc748e181"
+  },
+  "name": "NS-24/003",
+  "sampleType": {
+    "$oid": "66aa8cb8977bd5c84f0890df"
+  },
+  "acceptDate": {
+    "$date": {
+      "$numberLong": "1722462896188"
+    }
+  },
+  "parameters": [
+    {
+      "$oid": "66aaa0e284df827667fff56a"
+    },
+    {
+      "$oid": "66aaa0ec84df827667fff56c"
+    },
+    {
+      "$oid": "66aaa0f184df827667fff56e"
+    },
+    {
+      "$oid": "66aaa0f684df827667fff570"
+    },
+    {
+      "$oid": "66aaa0fb84df827667fff572"
+    },
+    {
+      "$oid": "66aaa10984df827667fff574"
+    },
+    {
+      "$oid": "66aaa12a84df827667fff57c"
+    },
+    {
+      "$oid": "66aaa13884df827667fff580"
+    },
+    {
+      "$oid": "66aaa14584df827667fff584"
+    },
+    {
+      "$oid": "66aaa16d84df827667fff588"
+    },
+    {
+      "$oid": "66aaa2b484df827667fff5a7"
+    },
+    {
+      "$oid": "66aaa2d984df827667fff5ab"
+    },
+    {
+      "$oid": "66aaa31384df827667fff5ad"
+    },
+    {
+      "$oid": "66aaa31e84df827667fff5af"
+    },
+    {
+      "$oid": "66aaa34284df827667fff5b3"
+    },
+    {
+      "$oid": "66aaa3a984df827667fff5b5"
+    },
+    {
+      "$oid": "66aaa3d484df827667fff5b7"
+    },
+    {
+      "$oid": "66aaa3e684df827667fff5bb"
+    },
+    {
+      "$oid": "66aaa3ed84df827667fff5bd"
+    },
+    {
+      "$oid": "66aaa3f384df827667fff5bf"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aab2b37ab9e63fc748e183"
+  },
+  "name": "NS-24/004",
+  "sampleType": {
+    "$oid": "66aa8cb8977bd5c84f0890df"
+  },
+  "acceptDate": {
+    "$date": {
+      "$numberLong": "1722462899881"
+    }
+  },
+  "parameters": [
+    {
+      "$oid": "66aaa0e284df827667fff56a"
+    },
+    {
+      "$oid": "66aaa0ec84df827667fff56c"
+    },
+    {
+      "$oid": "66aaa0f184df827667fff56e"
+    },
+    {
+      "$oid": "66aaa0f684df827667fff570"
+    },
+    {
+      "$oid": "66aaa0fb84df827667fff572"
+    },
+    {
+      "$oid": "66aaa10984df827667fff574"
+    },
+    {
+      "$oid": "66aaa12a84df827667fff57c"
+    },
+    {
+      "$oid": "66aaa13884df827667fff580"
+    },
+    {
+      "$oid": "66aaa14584df827667fff584"
+    },
+    {
+      "$oid": "66aaa16d84df827667fff588"
+    },
+    {
+      "$oid": "66aaa2b484df827667fff5a7"
+    },
+    {
+      "$oid": "66aaa2d984df827667fff5ab"
+    },
+    {
+      "$oid": "66aaa31384df827667fff5ad"
+    },
+    {
+      "$oid": "66aaa31e84df827667fff5af"
+    },
+    {
+      "$oid": "66aaa34284df827667fff5b3"
+    },
+    {
+      "$oid": "66aaa3a984df827667fff5b5"
+    },
+    {
+      "$oid": "66aaa3d484df827667fff5b7"
+    },
+    {
+      "$oid": "66aaa3e684df827667fff5bb"
+    },
+    {
+      "$oid": "66aaa3ed84df827667fff5bd"
+    },
+    {
+      "$oid": "66aaa3f384df827667fff5bf"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aab2b77ab9e63fc748e185"
+  },
+  "name": "NS-24/005",
+  "sampleType": {
+    "$oid": "66aa8cb8977bd5c84f0890df"
+  },
+  "acceptDate": {
+    "$date": {
+      "$numberLong": "1722462903565"
+    }
+  },
+  "parameters": [
+    {
+      "$oid": "66aaa0e284df827667fff56a"
+    },
+    {
+      "$oid": "66aaa0ec84df827667fff56c"
+    },
+    {
+      "$oid": "66aaa0f184df827667fff56e"
+    },
+    {
+      "$oid": "66aaa0f684df827667fff570"
+    },
+    {
+      "$oid": "66aaa0fb84df827667fff572"
+    },
+    {
+      "$oid": "66aaa10984df827667fff574"
+    },
+    {
+      "$oid": "66aaa12a84df827667fff57c"
+    },
+    {
+      "$oid": "66aaa13884df827667fff580"
+    },
+    {
+      "$oid": "66aaa14584df827667fff584"
+    },
+    {
+      "$oid": "66aaa16d84df827667fff588"
+    },
+    {
+      "$oid": "66aaa2b484df827667fff5a7"
+    },
+    {
+      "$oid": "66aaa2d984df827667fff5ab"
+    },
+    {
+      "$oid": "66aaa31384df827667fff5ad"
+    },
+    {
+      "$oid": "66aaa31e84df827667fff5af"
+    },
+    {
+      "$oid": "66aaa34284df827667fff5b3"
+    },
+    {
+      "$oid": "66aaa3a984df827667fff5b5"
+    },
+    {
+      "$oid": "66aaa3d484df827667fff5b7"
+    },
+    {
+      "$oid": "66aaa3e684df827667fff5bb"
+    },
+    {
+      "$oid": "66aaa3ed84df827667fff5bd"
+    },
+    {
+      "$oid": "66aaa3f384df827667fff5bf"
+    }
+  ],
+  "__v": 0
+}]

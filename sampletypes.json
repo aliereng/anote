@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "66aa8ca8977bd5c84f0890dd"
+  },
+  "name": "water",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aa8cb8977bd5c84f0890df"
+  },
+  "name": "wasteWater",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aa8cc0977bd5c84f0890e1"
+  },
+  "name": "seaWater",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aa8ce5977bd5c84f0890e3"
+  },
+  "name": "waste",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aa8ced977bd5c84f0890e5"
+  },
+  "name": "soil",
+  "__v": 0
+}]

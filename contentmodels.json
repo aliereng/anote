@@ -1,0 +1,212 @@
+[{
+  "_id": {
+    "$oid": "66aa9da69e7e9ee7b7a9b800"
+  },
+  "contentType": [
+    {
+      "text": "",
+      "style": "header",
+      "margin": [
+        0,
+        0,
+        0,
+        5
+      ]
+    },
+    {
+      "columns": [
+        {
+          "text": "İlk Tartım:\nSon Tartım:",
+          "fontSize": 10,
+          "width": "40%",
+          "margin": [
+            30,
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "canvas": [
+            {
+              "type": "line",
+              "x1": 51,
+              "y1": 10,
+              "x2": 251,
+              "y2": 10,
+              "lineWidth": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "analysisTypeId": {
+    "$oid": "66aa9a3f9cf01fcf6a55fbf7"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aa9de69e7e9ee7b7a9b802"
+  },
+  "contentType": [
+    {
+      "text": "",
+      "style": "header",
+      "margin": [
+        0,
+        0,
+        0,
+        5
+      ]
+    },
+    {
+      "columns": [
+        {
+          "text": "Blank::\nSarfiyat:",
+          "fontSize": 10,
+          "width": "40%",
+          "margin": [
+            30,
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "canvas": [
+            {
+              "type": "line",
+              "x1": 51,
+              "y1": 10,
+              "x2": 251,
+              "y2": 10,
+              "lineWidth": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "analysisTypeId": {
+    "$oid": "66aa9a489cf01fcf6a55fbf9"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aa9e6b9e7e9ee7b7a9b804"
+  },
+  "contentType": [
+    {
+      "text": "",
+      "style": "header",
+      "margin": [
+        0,
+        0,
+        0,
+        5
+      ]
+    },
+    {
+      "columns": [
+        {
+          "text": "",
+          "fontSize": 10,
+          "width": "40%",
+          "margin": [
+            30,
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "canvas": [
+            {
+              "type": "line",
+              "x1": 51,
+              "y1": 10,
+              "x2": 251,
+              "y2": 10,
+              "lineWidth": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "analysisTypeId": {
+    "$oid": "66aa9a879cf01fcf6a55fbfd"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aa9f769e7e9ee7b7a9b806"
+  },
+  "contentType": [
+    {
+      "text": "",
+      "style": "header",
+      "margin": [
+        0,
+        0,
+        0,
+        5
+      ]
+    },
+    {
+      "columns": [
+        {
+          "columns": [
+            {
+              "text": "1. Numune\n2. Numune\nAşı",
+              "fontSize": 10,
+              "width": "20%",
+              "margin": [
+                5,
+                20,
+                0,
+                5
+              ]
+            },
+            {
+              "text": "1.Gün\t\t\t\t2.Gün",
+              "fontSize": 10,
+              "width": "80%",
+              "margin": [
+                40,
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "canvas": [
+            {
+              "type": "line",
+              "x1": 0,
+              "y1": 10,
+              "x2": 200,
+              "y2": 10,
+              "lineWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 0,
+              "y1": 50,
+              "x2": 200,
+              "y2": 50,
+              "lineWidth": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "analysisTypeId": {
+    "$oid": "66aa9a729cf01fcf6a55fbfb"
+  },
+  "__v": 0
+}]

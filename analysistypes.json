@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "66aa9a339cf01fcf6a55fbf5"
+  },
+  "name": "enstrumental",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aa9a3f9cf01fcf6a55fbf7"
+  },
+  "name": "gravimetrik",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aa9a489cf01fcf6a55fbf9"
+  },
+  "name": "titrimetrik",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aa9a729cf01fcf6a55fbfb"
+  },
+  "name": "bakteriyel",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aa9a879cf01fcf6a55fbfd"
+  },
+  "name": "tek-satir",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66aa9a979cf01fcf6a55fbff"
+  },
+  "name": "diger",
+  "__v": 0
+}]
