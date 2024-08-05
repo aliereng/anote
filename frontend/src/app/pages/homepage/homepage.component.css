@@ -1,0 +1,39 @@
+#homeComponent{
+    width: 100%;
+    height: 91vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+#homeComponent #inputs{
+    display: flex;
+    gap: 2rem;
+}
+#homeComponent #inputs input,select {
+    padding: 1rem;
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: transparent;
+}
+#homeComponent #parameters{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+}
+#homeComponent #parameters .parameter{
+    display: flex;
+    gap: .75rem;
+}
+#homeComponent #parameters .parameter label{
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+#homeComponent #buttons{
+    display: flex;
+    gap:2rem;
+}

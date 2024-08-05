@@ -1,0 +1,23 @@
+<div id="parameters">
+    <div id="parameters-opt">
+        
+        <div id="parameter-edit">
+            <input type="text" placeholder="parametre adı" [(ngModel)]="parameterName">
+            <select [(ngModel)]="selectedAnalysisType">
+                <option value="0" selected disabled>analiz tipi</option>
+                <option *ngFor="let analysisType of analysisTypes" value={{analysisType._id}}>{{analysisType.name}}</option>
+            </select>
+        </div>
+        <div id="buttons">
+            <button class="button" (click)="addParameter()">Ekle</button>
+            <button class="button" (click)="findParameter()">Ara</button>
+        </div>
+
+    </div>
+    <div id="parameters-area" >
+        <p *ngFor="let parameter of parameters" class="parameter-items">{{parameter.name}} <span><i class="fa-solid fa-x" (click)="deleteParameter(parameter._id!)"></i></span> </p>
+        <!-- <i class="fa-solid fa-rotate-left"></i> | güncelleme için kullan diğer spanın öncesine ekle -->
+    </div>
+    
+
+</div>

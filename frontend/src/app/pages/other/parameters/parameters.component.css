@@ -1,0 +1,46 @@
+#parameters{
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2rem;
+    
+}
+#parameters #parameters-opt{
+ display: flex;
+ width: 100%;
+ height: 5vh;
+ justify-content: space-between;
+ align-items: center;
+ margin-bottom: 1rem;
+ border-bottom:1px solid gray;
+}
+#parameters #parameters-opt #parameter-edit{
+    display: flex;
+    gap: 2rem
+}
+#parameters #parameters-opt #buttons{
+    display: flex;
+    gap: 1rem
+}
+
+#parameters-area {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:2rem
+    
+}
+#parameters-area p span i:hover{
+    cursor: pointer;
+}
+#parameters #parameters-add #parameter-edit{
+    
+    justify-content: center;
+    align-items: center;
+}

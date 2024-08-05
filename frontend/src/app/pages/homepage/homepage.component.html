@@ -1,0 +1,23 @@
+<section id="homeComponent"> 
+    <div id="inputs">
+        <input type="text" name="sample-code" id="sample-code" [(ngModel)]="sampleCode" placeholder="Numune Kodu">
+        <select [(ngModel)]="selectedSampleType" *ngIf="sampleTypes">
+            <option value="0" selected disabled>Numune Türü</option>
+            <option *ngFor="let sampleType of sampleTypes" value={{sampleType._id}}>{{sampleType.name}}</option>
+        </select>
+        <input type="date" name="sample-code" id="sample-code" [(ngModel)]="sampleAcceptType">
+    </div>
+    <div id="parameters" *ngIf="parameters">
+        <div class="parameter" *ngFor="let parameter of parameters">
+            <input class="choice-item"  type="checkbox" name={{parameter._id}} id={{parameter._id}} (change)="selectParameter(parameter._id!)">
+            <label for={{parameter._id}}>{{parameter.name}}</label>
+
+        </div>
+    </div>
+    <div id="buttons">
+        <button class="button" (click)="addSample()">ekle</button>
+        <button class="button" (click)="createPdf()">pdf oluştur</button>
+        <button class="button" (click)="showPdf()" *ngIf="downloadStatus">pdf görüntüle</button>
+    </div>
+    
+</section>
