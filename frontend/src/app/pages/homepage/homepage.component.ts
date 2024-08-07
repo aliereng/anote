@@ -18,7 +18,7 @@ export class HomepageComponent implements OnInit {
   selectedParameters: string[] = [];
   sampleCode!: string;
   selectedSampleType: string = "0";
-  sampleAcceptType!: Date | null;
+  sampleAcceptDate!: string | undefined
   downloadStatus:boolean = false;
   constructor(
     private parameterService: ParameterService, 
@@ -44,13 +44,13 @@ export class HomepageComponent implements OnInit {
   }
 
   addSample(){
+    const [year, month, day] = this.sampleAcceptDate!.split("-");
     const newSample = {
       name: this.sampleCode.trim().toUpperCase(),
       sampleType: this.selectedSampleType,
-      acceptDate: this.sampleAcceptType,
+      acceptDate: new Date(parseInt(year), parseInt(month)-1, parseInt(day)),
       parameters: this.selectedParameters
     }
-
     this.sampleService.createSample(newSample).subscribe(result => {
       if(result.success){
         alertify.success(`${result.data.name} eklendi.`)
@@ -96,7 +96,7 @@ export class HomepageComponent implements OnInit {
   clearInputs(){
     this.sampleCode = "";
     this.selectedSampleType = "0";
-    this.sampleAcceptType = null;
+    this.sampleAcceptDate = undefined;
   }
   clearChoices(){
     const choiceItems = document.getElementsByClassName("choice-item") 

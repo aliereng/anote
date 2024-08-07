@@ -28,7 +28,9 @@ const createPdf = asyncHandler(async(req,res,next) => {
     }
     samples.forEach(sample => {
         pdfContent.push(
-            {text: `${sample.name} - ${sample.acceptDate.getDay()}.${sample.acceptDate.getMonth()}.${sample.acceptDate.getFullYear()}`, fontSize:14, style:'header',  margin: [0, 0, 0, 10]}
+            {text: `${sample.name} - ${("0" + sample.acceptDate.getDate()).slice(-2)}.${("0" + (sample.acceptDate.getMonth()+1)).slice(-2)}.${sample.acceptDate.getFullYear()}`, fontSize:14, style:'header',  margin: [0, 0, 0, 10]}
+            // {text: `${sample.name} - ${sample.acceptDate}`, fontSize:14, style:'header',  margin: [0, 0, 0, 10]}
+
         )
         sample.parameters.forEach(parameter => {
             if(parameter.contentType){  

@@ -17,11 +17,12 @@ const ParameterSchema = new mongoose.Schema({
     }
 })
 ParameterSchema.pre("save", async function (next){
-    const contentType = await ContentModel.find({analysisTypeId:this.analysisType});
+    const contentType = await ContentModel.findOne({analysisTypeId:this.analysisType});
     if(contentType){
-        this.contentType = contentType[0]._id;
+        this.contentType = contentType._id;
+        next();
+
     }
-    next();
     
 })
 

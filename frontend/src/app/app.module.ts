@@ -10,6 +10,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { OtherNavComponent } from './components/other-nav/other-nav.component';
 import { ParametersComponent } from './pages/other/parameters/parameters.component';
+import { SamplesComponent } from './pages/other/samples/samples.component';
+import { CustomDatePipe } from './pipes/custom-date.pipe';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { ParametersComponent } from './pages/other/parameters/parameters.compone
     FooterComponent,
     OtherComponent,
     OtherNavComponent,
-    ParametersComponent
+    ParametersComponent,
+    SamplesComponent,
+    CustomDatePipe
     ],
   imports: [
     BrowserModule,

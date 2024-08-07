@@ -9,7 +9,7 @@ router.get("/filter/parameter-name/:parameterName",getName );
 router.post("/", createParameter);
 router.put("/:parameterId", updateParameter);
 router.delete("/:parameterId", deleteParameterById)
-router.delete("/all", deleteAllParameters);
+router.get("/delete/all", deleteAllParameters);
 
 module.exports = router;
 

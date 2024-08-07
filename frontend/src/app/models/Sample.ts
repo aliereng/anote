@@ -1,7 +1,10 @@
+import Parameter from "./Parameter";
+import SampleType from "./SampleType";
+
 export default interface Sample {
     _id: string,
     name: string,
-    sampleType: string,
+    sampleType: SampleType,
     acceptDate: Date,
-    parameters: string[]
+    parameters: Parameter[]
 }

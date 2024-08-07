@@ -10,15 +10,18 @@ const getLastTenSample = asyncHandler(async(req,res,next) => {
     })
 })
 const getAllSample = asyncHandler(async(req,res,next) => {
-    const samples = await Sample.find().populate([
+    const samples = await Sample.find().populate(
         {path: "sampleType", select:"name"}
-    ])
+    ).populate(
+        {path:"parameters", select:"name"}
+    )
     res.status(200).json({
         success: true,
         data: samples
     })
 })
 const createSample = asyncHandler(async(req,res,next) => {
+
     const {name, sampleType, acceptDate, parameters} = req.body;
     const sample = await Sample.create({
         name,

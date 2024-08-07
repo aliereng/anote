@@ -1,1 +1,17 @@
-<p>samples works!</p>
+<section id="samples-page">
+    <div id="samples" *ngIf="samples">
+        <button class="button" (click)="deleteAllSamples()">Tümünü sil</button>
+        <ul>
+            <li *ngFor="let sample of samples" (click)="listSampleParameters(sample)">
+                <p>{{sample.name}}</p>
+                <p><span>{{sample.sampleType.name}} | {{sample.acceptDate | customDate}}</span></p>
+            </li>
+        </ul>
+    </div>
+    <div id="sample-parameters">
+        <div class="parameter-group" *ngFor="let parameter, index of sampleParameters">
+            <input type="checkbox" id={{parameter._id}} checked (selectionchange)="changeSelect(parameter)">
+            <label for="{{parameter._id}}">{{parameter.name}}</label>
+        </div>
+    </div>
+</section>

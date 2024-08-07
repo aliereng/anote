@@ -5,16 +5,19 @@
             <option value="0" selected disabled>Numune Türü</option>
             <option *ngFor="let sampleType of sampleTypes" value={{sampleType._id}}>{{sampleType.name}}</option>
         </select>
-        <input type="date" name="sample-code" id="sample-code" [(ngModel)]="sampleAcceptType">
+        <input type="date" name="sample-code" id="sample-code" [(ngModel)]="sampleAcceptDate">
     </div>
-    <div id="parameters" *ngIf="parameters">
+    <div id="parameters" *ngIf="parameters.length > 0">
         <div class="parameter" *ngFor="let parameter of parameters">
             <input class="choice-item"  type="checkbox" name={{parameter._id}} id={{parameter._id}} (change)="selectParameter(parameter._id!)">
             <label for={{parameter._id}}>{{parameter.name}}</label>
 
         </div>
     </div>
-    <div id="buttons">
+    <div id="parameters" *ngIf="parameters.length === 0">
+        <p>Seçebileceğiniz bir parametre bilgisi bulunmamaktadır. Eklemek için lütfen <a routerLink="other/parameters"><i>buraya</i></a> tıkla.</p>
+    </div>
+    <div id="buttons" *ngIf="parameters.length !== 0">
         <button class="button" (click)="addSample()">ekle</button>
         <button class="button" (click)="createPdf()">pdf oluştur</button>
         <button class="button" (click)="showPdf()" *ngIf="downloadStatus">pdf görüntüle</button>

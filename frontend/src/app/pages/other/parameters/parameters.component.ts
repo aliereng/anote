@@ -62,28 +62,38 @@ export class ParametersComponent implements OnInit {
       alertify.error(error)
     })
   }
-  findParameter(){
-    if(this.parameterName === undefined && this.selectedAnalysisType ==="0"){
-      alertify.error("lütfen aramak istediğiniz parametre adını ya da filtrelemek istediğiniz analiz tipini seçin.")
+  // findParameter(){
+  //   if(this.parameterName === undefined && this.selectedAnalysisType ==="0"){
+  //     alertify.error("lütfen aramak istediğiniz parametre adını ya da filtrelemek istediğiniz analiz tipini seçin.")
 
-    }else{
-      if(this.parameterName !== undefined){
-        let index!:number;
-        this.parameters.forEach((parameter,i) => {
-          parameter.name === this.parameterName.trim().toLowerCase()? (index = i):(index =-1)
-        })
-        if(index === -1){
-          alertify.warning("aradığınız parametre bulunamadı")
-        }else{
-          const parameterItems = document.getElementsByClassName("parameter-items");
-          if(Array.isArray(parameterItems)){
-            parameterItems[index].setAttribute("style", "color:red")
-          }
-        }
-      }else{
+  //   }else{
+  //     if(this.parameterName !== undefined){
+  //       let index!:number;
+  //       this.parameters.forEach((parameter,i) => {
+  //         parameter.name === this.parameterName.trim().toLowerCase()? (index = i):(index =-1)
+  //       })
+  //       if(index === -1){
+  //         alertify.warning("aradığınız parametre bulunamadı")
+  //       }else{
+  //         const parameterItems = document.getElementsByClassName("parameter-items");
+  //         if(Array.isArray(parameterItems)){
+  //           parameterItems[index].setAttribute("style", "color:red")
+  //         }
+  //       }
+  //     }else{
 
+  //     }
+  //   }
+  // }
+  deleteAllParameters(){
+    this.parameterService.deleteAllParameters().subscribe(result => {
+      if(result.success){
+        this.parameters = [];
+        alertify.success("Tüm parametreler silindi.")
       }
-    }
+    },error => {
+      alertify.error(error.message)
+    });
+    
   }
-
 }

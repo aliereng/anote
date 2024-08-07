@@ -63,7 +63,7 @@
     {
       "columns": [
         {
-          "text": "Blank::\nSarfiyat:",
+          "text": "Blank:\nSarfiyat:",
           "fontSize": 10,
           "width": "40%",
           "margin": [
@@ -125,9 +125,9 @@
             {
               "type": "line",
               "x1": 51,
-              "y1": 10,
+              "y1": 0,
               "x2": 251,
-              "y2": 10,
+              "y2": 0,
               "lineWidth": 1
             }
           ]
@@ -161,7 +161,7 @@
             {
               "text": "1. Numune\n2. Numune\nAşı",
               "fontSize": 10,
-              "width": "20%",
+              "width": "25%",
               "margin": [
                 5,
                 20,
@@ -207,6 +207,53 @@
   ],
   "analysisTypeId": {
     "$oid": "66aa9a729cf01fcf6a55fbfb"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66ae562f9cbdbc97c6a4077f"
+  },
+  "contentType": [
+    {
+      "text": "",
+      "sample": "header",
+      "margin": [
+        0,
+        0,
+        0,
+        5
+      ]
+    },
+    {
+      "columns": [
+        {
+          "text": "v0:\nv1:\nv2",
+          "fontSize": 10,
+          "width": "40%",
+          "margin": [
+            30,
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "canvas": [
+            {
+              "type": "line",
+              "x1": 51,
+              "y1": 20,
+              "x2": 251,
+              "y2": 20,
+              "lineWidth": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "analysisTypeId": {
+    "$oid": "66ae55d69cbdbc97c6a4077d"
   },
   "__v": 0
 }]
