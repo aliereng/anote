@@ -20,8 +20,8 @@ const getAllAnalysisType = asyncHandler(async(req,res,next) => {
     })
 })
 const updateAnalysisType = asyncHandler(async(req,res, next) => {
-    const {analysisTypeId} = req.params
-    const analysisType = await AnalysisType.findByIdAndUpdate(analysisTypeId, req.body, {
+    const {_id} = req.body
+    const analysisType = await AnalysisType.findByIdAndUpdate({_id:_id}, req.body, {
         new: true,
         runValidators: true
     })

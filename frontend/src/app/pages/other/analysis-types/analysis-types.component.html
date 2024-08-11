@@ -1,1 +1,23 @@
-<p>analysis-types works!</p>
+<div id="analysis-types">
+    <div id="analysis-types-opt">
+        
+        <div id="analysis-types-edit">
+            <input type="text" placeholder="Analiz Tipi" [(ngModel)]="analysisTypeName">
+           
+        </div>
+        <div id="buttons">
+            <button class="button" (click)="addAnalysisType()">Ekle</button>
+            <button class="button" (click)="updateAnalysisType()">Güncelle</button>
+            <button class="button" (click)="deleteAllAnalysisType()">Tümünü Sil</button>
+
+
+        </div>
+
+    </div>
+    <div id="analysis-types-area" >
+        <p *ngFor="let analysisType of analysisTypes" class="analysis-type-items" (click)="selectAnalysisType(analysisType)" >{{analysisType.name}} <span><i class="fa-solid fa-x" (click)="deleteAnalysisType(analysisType)"></i></span> </p>
+        <!-- <i class="fa-solid fa-rotate-left"></i> | güncelleme için kullan diğer spanın öncesine ekle -->
+    </div>
+    
+
+</div>

@@ -3,10 +3,26 @@ const Sample = require("../models/SampleModel");
 
 
 const getLastTenSample = asyncHandler(async(req,res,next) => {
-    const lastTenSample = await Sample.find().sort({_id: -1}).limit(10);
+    const lastTenSample = await Sample.find().sort({_id: -1}).limit(10).populate(
+        {path: "sampleType", select:"name"}
+    ).populate(
+        {path:"parameters", select:"name"}
+    );
     res.status(200).json({
         success: true,
         data: lastTenSample
+    })
+})
+const getSampleBySampleName = asyncHandler(async(req,res,next) => {
+    const {name} = req.body
+    const sample = await Sample.findOne({name:name}).populate(
+        {path: "sampleType", select:"name"}
+    ).populate(
+        {path:"parameters", select:"name"}
+    );
+    res.status(200).json({
+        success: true,
+        data: sample
     })
 })
 const getAllSample = asyncHandler(async(req,res,next) => {
@@ -38,7 +54,7 @@ const createSample = asyncHandler(async(req,res,next) => {
 })
 const updateSample = asyncHandler(async(req, res, next) => {
     const {sampleId} = req.params
-    const sample = await Category.findByIdAndUpdate(sampleId, req.body, {
+    const sample = await Sample.findByIdAndUpdate(sampleId, req.body, {
         new: true,
         runValidators: true
     })
@@ -53,11 +69,28 @@ const deleteAllSamples = asyncHandler(async(req, res, next) => {
         success: true
     })
 })
+const getSamplesBySampleType = asyncHandler(async(req,res,next) => {
+    
+    const {sampleTypeId} = req.params;
+    const samples = await Sample.find().where({sampleType: sampleTypeId}).populate(
+        {path: "sampleType", select:"name"}
+    ).populate(
+        {path:"parameters", select:"name"}
+    )
+   
+    res.status(200).json({
+        success: true,
+        data: samples
+    })
+    
+})
 
 module.exports = {
     createSample,
     getLastTenSample,
     updateSample,
     deleteAllSamples,
-    getAllSample
+    getAllSample,
+    getSamplesBySampleType,
+    getSampleBySampleName
 }

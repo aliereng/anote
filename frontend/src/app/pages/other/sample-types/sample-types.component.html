@@ -1,1 +1,23 @@
-<p>sample-types works!</p>
+<div id="sample-types">
+    <div id="sample-types-opt">
+        
+        <div id="sample-types-edit">
+            <input type="text" placeholder="Numune Tipi" [(ngModel)]="sampleTypeName">
+           
+        </div>
+        <div id="buttons">
+            <button class="button" (click)="addSampleType()">Ekle</button>
+            <button class="button" (click)="updateSampleType()">Güncelle</button>
+            <button class="button" (click)="deleteAllSampleTypes()">Tümünü Sil</button>
+
+
+        </div>
+
+    </div>
+    <div id="sample-types-area" >
+        <p *ngFor="let sampleType of sampleTypes" class="sample-type-items" (click)="selectSampleType(sampleType)" >{{sampleType.name}} <span><i class="fa-solid fa-x" (click)="deleteSampleType(sampleType)"></i></span> </p>
+        <!-- <i class="fa-solid fa-rotate-left"></i> | güncelleme için kullan diğer spanın öncesine ekle -->
+    </div>
+    
+
+</div>

@@ -1,4 +1,4 @@
 export default interface SampleType{
-    _id: string,
+    _id?: string,
     name: string
 }

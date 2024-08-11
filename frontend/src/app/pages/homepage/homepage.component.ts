@@ -30,7 +30,7 @@ export class HomepageComponent implements OnInit {
     this.parameterService.getParameters().subscribe(result => {
         this.parameters = result.data
     })
-    this.sampleTypeService.getsampleTypes().subscribe(result => {
+    this.sampleTypeService.getSampleTypes().subscribe(result => {
       this.sampleTypes = result.data
     })
   }

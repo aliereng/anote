@@ -12,6 +12,8 @@ import { OtherNavComponent } from './components/other-nav/other-nav.component';
 import { ParametersComponent } from './pages/other/parameters/parameters.component';
 import { SamplesComponent } from './pages/other/samples/samples.component';
 import { CustomDatePipe } from './pipes/custom-date.pipe';
+import { AnalysisTypesComponent } from './pages/other/analysis-types/analysis-types.component';
+import { SampleTypesComponent } from './pages/other/sample-types/sample-types.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { CustomDatePipe } from './pipes/custom-date.pipe';
     OtherNavComponent,
     ParametersComponent,
     SamplesComponent,
-    CustomDatePipe
+    CustomDatePipe,
+    AnalysisTypesComponent,
+    SampleTypesComponent
     ],
   imports: [
     BrowserModule,

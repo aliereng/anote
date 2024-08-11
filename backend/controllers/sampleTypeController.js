@@ -2,7 +2,7 @@ const asyncHandler = require("express-async-handler");
 const SampleType = require("../models/SampleTypeModel");
 
 const createSampleType = asyncHandler(async(req, res, next) => {
-    const {name, } = req.body
+    const {name} = req.body
     const sampleType = await SampleType.create({
         name
     })
@@ -21,8 +21,8 @@ const getAllSampleType = asyncHandler(async(req, res, next) => {
 })
 
 const updateSampleType = asyncHandler(async(req,res, next) => {
-    const {sampleTypeId} = req.params
-    const sampleType = await SampleType.findByIdAndUpdate(sampleTypeId, req.body, {
+    const {_id} = req.body
+    const sampleType = await SampleType.findByIdAndUpdate({_id:_id}, req.body, {
         new: true,
         runValidators: true
     })

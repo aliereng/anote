@@ -1,17 +1,49 @@
 <section id="samples-page">
-    <div id="samples" *ngIf="samples">
+    <div id="samples" >
         <button class="button" (click)="deleteAllSamples()">Tümünü sil</button>
-        <ul>
+        <select (change)="filterSamplesBySampleType()" [(ngModel)]="selectedSampleType">
+            <option value="0" selected>Tümü</option>
+            <option value={{sampleType._id}} *ngFor="let sampleType of sampleTypes">{{sampleType.name}}</option>
+
+        </select>
+        <ul *ngIf="samples">
             <li *ngFor="let sample of samples" (click)="listSampleParameters(sample)">
                 <p>{{sample.name}}</p>
                 <p><span>{{sample.sampleType.name}} | {{sample.acceptDate | customDate}}</span></p>
             </li>
         </ul>
+        
+        <p class="loading">numuneler getiriliyor</p>
+      
     </div>
-    <div id="sample-parameters">
-        <div class="parameter-group" *ngFor="let parameter, index of sampleParameters">
-            <input type="checkbox" id={{parameter._id}} checked (selectionchange)="changeSelect(parameter)">
-            <label for="{{parameter._id}}">{{parameter.name}}</label>
+    <div id="sample">
+        <div id="sample-inputs">
+            <div class="input-group">
+                <input type="text" [(ngModel)] = sampleName placeholder="numune kodu">
+                <input type="date" [(ngModel)] = sampleAcceptDate>
+            </div>
+            <div id="sample-input-buttons">
+                <button class="button"(click)="getSampleBySampleName()" >Ara</button>
+                <button class="button"(click)="updateSample()" >Güncelle</button>
+            </div>
+           
+        </div>
+        <div id="parameter-group" >
+            <div id="all-parameters">
+                <h2>Tüm Parametreler</h2>
+
+                <div class="parameters" >
+                    <p id={{parameter._id}} *ngFor="let parameter of parameters" (click)="changeSelect(parameter, 'parameters')">{{parameter.name}}</p>
+                </div>
+                
+            </div>
+            <div id="selected-parameters">
+                <h2>Örneğin Parametreleri</h2>
+
+                <div class="parameters" >
+                    <p id={{sampleParameter._id}} *ngFor="let sampleParameter of sampleParameters" (click)="changeSelect(sampleParameter, 'samples')">{{sampleParameter.name}}</p>
+                </div>
+            </div>
         </div>
     </div>
 </section>

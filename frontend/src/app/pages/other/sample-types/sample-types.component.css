@@ -1,0 +1,45 @@
+#sample-types{
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2rem;
+    
+}
+#sample-types #sample-types-opt{
+ display: flex;
+ width: 100%;
+ height: 5vh;
+ justify-content: space-between;
+ align-items: center;
+ margin-bottom: 1rem;
+ border-bottom:1px solid gray;
+}
+#sample-types #sample-types-opt #sample-types-edit{
+    display: flex;
+    gap: 2rem
+}
+#sample-types #sample-types-opt #buttons{
+    display: flex;
+    gap: 1rem
+}
+
+#sample-types-area {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:2rem
+    
+}
+#sample-types-area p span i:hover{
+    cursor: pointer;
+}
+#sample-types-area p:hover{
+    cursor: pointer;
+}
+

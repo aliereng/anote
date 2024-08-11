@@ -10,7 +10,19 @@ export class AnalysisTypeService {
 
   constructor(private http: HttpClient) { }
   
-  getParameters():Observable<{success: true, data: AnalysisType[]}>{
-    return this.http.get<{success: true, data: AnalysisType[]}>(`${environment.apiUrl}/analysis-types`)
+  getAnalysisTypes():Observable<{success: boolean, data: AnalysisType[]}>{
+    return this.http.get<{success: boolean, data: AnalysisType[]}>(`${environment.apiUrl}/analysis-types`)
+  }
+  addAnalysisType(analysisType: AnalysisType):Observable<{success: boolean, data: AnalysisType}>{
+    return this.http.post<{success: boolean, data: AnalysisType}>(`${environment.apiUrl}/analysis-types`,analysisType)
+  }
+  deleteAnalysisTypeById(analysisTypeId: string): Observable<{success:boolean}>{
+    return this.http.delete<{success: boolean}>(`${environment.apiUrl}/analysis-types/delete/${analysisTypeId}`)
+  }
+  deleteAllAnalysisTypes():Observable<{success: boolean}>{
+    return this.http.delete<{success: boolean}>(`${environment.apiUrl}/analysis-types/delete/all`)
+  }
+  updateAnalysisType(analysisType: AnalysisType): Observable<{success: boolean, data:AnalysisType}>{
+    return this.http.put<{success: boolean, data: AnalysisType}>(`${environment.apiUrl}/analysis-types/update`, analysisType)
   }
 }

@@ -4,9 +4,9 @@ const router = express.Router();
 
 router.get("/", getAllAnalysisType);
 router.post("/", createAnalysisType);
-router.put("/:analysisTypeId", updateAnalysisType);
-router.delete("/:analysisTypeId", deleteAnalysisTypeById)
-router.delete("/all", deleteAllAnalysisTypes);
+router.put("/update", updateAnalysisType);
+router.delete("/delete/:analysisTypeId", deleteAnalysisTypeById)
+router.delete("/delete/all", deleteAllAnalysisTypes);
 
 module.exports = router;
 

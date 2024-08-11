@@ -4,9 +4,9 @@ const router = express.Router();
 
 router.get("/", getAllSampleType);
 router.post("/", createSampleType);
-router.put("/:sampleTypeId", updateSampleType);
-router.delete("/:sampleTypeId", deleteSampleTypeById)
-router.delete("/all", deleteAllSampleTypes);
+router.put("/update", updateSampleType);
+router.delete("/delete/:sampleTypeId", deleteSampleTypeById)
+router.delete("/delete/all", deleteAllSampleTypes);
 
 module.exports = router;
 

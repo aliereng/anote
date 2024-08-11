@@ -20,10 +20,12 @@ export class ParametersComponent implements OnInit {
   constructor(private parameterService: ParameterService, private analysisTypeService: AnalysisTypeService) { }
 
   ngOnInit(): void {
+   
     this.parameterService.getParameters().subscribe(result => {
       this.parameters = result.data;
     })
-    this.analysisTypeService.getParameters().subscribe(result => {
+   
+    this.analysisTypeService.getAnalysisTypes().subscribe(result => {
       this.analysisTypes = result.data
     })
   }

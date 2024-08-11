@@ -16,9 +16,12 @@
         </div>
 
     </div>
-    <div id="parameters-area" >
+    <div id="parameters-area" *ngIf="parameters">
         <p *ngFor="let parameter of parameters" class="parameter-items">{{parameter.name}} <span><i class="fa-solid fa-x" (click)="deleteParameter(parameter._id!)"></i></span> </p>
         <!-- <i class="fa-solid fa-rotate-left"></i> | güncelleme için kullan diğer spanın öncesine ekle -->
+    </div>
+    <div class="loading" *ngIf="!parameters"> 
+        <p>yükleniyor</p>
     </div>
     
 
