@@ -66,23 +66,23 @@ export class HomepageComponent implements OnInit {
     this.pdfService.createPdf(sampleTypeName).subscribe(result => {
       if(result.success){
         this.downloadStatus = true;
-        alertify.success("pdf başarı ile oluşturuldu.")
+        window.open(`http://localhost:3000/api/pdf/${sampleTypeName}`,"_blank");
         this.clearChoices();
         this.clearInputs();
       }
     })
   }
-  showPdf(){
-    let sampleTypeName = this.getSampleTypeName()
-    if(!sampleTypeName){
-      alertify.error("lütfen numune türünü seçiniz.")
-    }else{
-      window.open(`http://localhost:3000/api/pdf/${sampleTypeName}`,"_blank");
-      window.location.reload()
+  // showPdf(){
+  //   let sampleTypeName = this.getSampleTypeName()
+  //   if(!sampleTypeName){
+  //     alertify.error("lütfen numune türünü seçiniz.")
+  //   }else{
+  //     window.open(`http://localhost:3000/api/pdf/${sampleTypeName}`,"_blank");
+  //     window.location.reload()
   
-    }
+  //   }
    
-  }
+  // }
 
   getSampleTypeName() {
     let sampleTypeName!: string;

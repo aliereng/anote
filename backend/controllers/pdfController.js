@@ -29,7 +29,7 @@ const createPdf = asyncHandler(async(req,res,next) => {
     }
     samples.forEach((sample, index) => {
         pdfContent.push(
-            {text: `${sample.name} - ${("0" + sample.acceptDate.getDate()).slice(-2)}.${("0" + (sample.acceptDate.getMonth()+1)).slice(-2)}.${sample.acceptDate.getFullYear()}`, fontSize:14, style:'header',  margin: [0, 0, 0, 10]}
+            {text: `${sample.name} - ${("0" + sample.acceptDate.getDate()).slice(-2)}.${("0" + (sample.acceptDate.getMonth()+1)).slice(-2)}.${sample.acceptDate.getFullYear()}`, fontSize:14, style:'header',  margin: [0, 10, 0, 10]}
             // {text: `${sample.name} - ${sample.acceptDate}`, fontSize:14, style:'header',  margin: [0, 0, 0, 10]}
 
         )
@@ -112,19 +112,26 @@ const createPdf = asyncHandler(async(req,res,next) => {
             return {
                 columns: [{
                     image: logoBase64,
-                    width: 75
+                    width: 75,
+                    margin: [0,10,0,10]
                 },
                 {
-                    text: sampletype === "su"? ("Su Analiz Sonuç Hesaplama Defteri"):("Atıksu, Deniz Suyu, Toprak ve Atık Analizleri Sonuç Hesaplama Defteri"),
-                    aligment: "center",
-                    margin: [20,12.5,0,0]
+                    text: sampletype === "su"? ("Su Analiz Sonuç Hesaplama ve Kayıt Defteri"):("Atıksu, Deniz Suyu, Toprak ve Atık Analizleri Sonuç Hesaplama ve Kayıt Defteri"),
+                    alignment: "center",
+                    width: '445',
+                    height: '50',
+                    margin:[0, 22.5,0,0],
+                },
+                {
+                    width: 75, // Sağ tarafta boşluk veya başka bir öğe eklemek için
+                    text: '', // Boş bir hücre, genişliği doldurmak için
                 },
                 {
                     canvas: [
                         {
                             type: 'rect', // Dikdörtgen çiz
                             x: 0, // X koordinatı (Sol)
-                            y: 0, // Y koordinatı (Üst)
+                            y: 10, // Y koordinatı (Üst)
                             w: 515, // Genişlik (A4 kağıdının genişliği - marjinler)
                             h: 50, // Yükseklik
                             r: 0, // Köşe yarıçapı (0 ise düz köşeler)
@@ -140,9 +147,9 @@ const createPdf = asyncHandler(async(req,res,next) => {
                         {
                             type: 'line',
                             x1: 75, // Çizgi logosunun sağ kenarından başlar
-                            y1: 5, // Çizginin üst ucu (Dikdörtgenin üst kısmına hizalanır)
+                            y1: 15, // Çizginin üst ucu (Dikdörtgenin üst kısmına hizalanır)
                             x2: 75, // X koordinatında aynı kalır, böylece dikey bir çizgi olur
-                            y2: 55, // Çizginin alt ucu (Dikdörtgenin alt kısmına hizalanır)
+                            y2: 65, // Çizginin alt ucu (Dikdörtgenin alt kısmına hizalanır)
                             lineWidth: 1, // Çizgi kalınlığı
                             lineColor: 'black' // Çizgi rengi
                         }
@@ -152,11 +159,11 @@ const createPdf = asyncHandler(async(req,res,next) => {
                     
 
                 ],
-                margin: [40,10,50,75]
+                margin: [40,10,50,90]
             }
         },
         content: pdfContent,     
-        pageMargins: [40, 60, 40, 60],
+        pageMargins: [40, 70, 40, 60],
         styles: {
           header: {
             bold: true,
