@@ -2,7 +2,7 @@
   "_id": {
     "$oid": "66aa9a339cf01fcf6a55fbf5"
   },
-  "name": "enstrumental",
+  "name": "enstrümental",
   "__v": 0
 },{
   "_id": {
@@ -33,5 +33,35 @@
     "$oid": "66aa9a979cf01fcf6a55fbff"
   },
   "name": "diger",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66ae55d69cbdbc97c6a4077d"
+  },
+  "name": "permanganat",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66bcf947893debea1659670c"
+  },
+  "name": "atık-nem",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66bd0da2d0f92a1d871880f3"
+  },
+  "name": "atık-enstrümental",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66bd0dafd0f92a1d871880f5"
+  },
+  "name": "atık-titrimetrik",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66bd0db8d0f92a1d871880f7"
+  },
+  "name": "atık-gravimetrik",
   "__v": 0
 }]

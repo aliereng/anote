@@ -8,9 +8,9 @@
       "style": "header",
       "margin": [
         0,
+        10,
         0,
-        0,
-        5
+        10
       ]
     },
     {
@@ -23,7 +23,7 @@
             30,
             0,
             0,
-            5
+            0
           ]
         },
         {
@@ -55,9 +55,9 @@
       "style": "header",
       "margin": [
         0,
+        10,
         0,
-        0,
-        5
+        10
       ]
     },
     {
@@ -70,7 +70,7 @@
             30,
             0,
             0,
-            5
+            0
           ]
         },
         {
@@ -102,9 +102,9 @@
       "style": "header",
       "margin": [
         0,
+        10,
         0,
-        0,
-        5
+        10
       ]
     },
     {
@@ -117,7 +117,7 @@
             30,
             0,
             0,
-            5
+            0
           ]
         },
         {
@@ -149,9 +149,9 @@
       "style": "header",
       "margin": [
         0,
+        10,
         0,
-        0,
-        5
+        10
       ]
     },
     {
@@ -166,7 +166,7 @@
                 5,
                 20,
                 0,
-                5
+                0
               ]
             },
             {
@@ -219,9 +219,9 @@
       "sample": "header",
       "margin": [
         0,
+        10,
         0,
-        0,
-        5
+        10
       ]
     },
     {
@@ -234,7 +234,7 @@
             30,
             0,
             0,
-            5
+            0
           ]
         },
         {
@@ -254,6 +254,108 @@
   ],
   "analysisTypeId": {
     "$oid": "66ae55d69cbdbc97c6a4077d"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66bcf96f893debea1659670f"
+  },
+  "contentType": [
+    {
+      "text": "",
+      "sample": "header",
+      "margin": [
+        0,
+        10,
+        0,
+        10
+      ]
+    },
+    {
+      "columns": [
+        {
+          "text": "Kroze:\nNumune:\nKroze + Numune:\nKroze + Numune ST:",
+          "fontSize": 10,
+          "width": "40%",
+          "margin": [
+            30,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "canvas": [
+            {
+              "type": "line",
+              "x1": 51,
+              "y1": 20,
+              "x2": 251,
+              "y2": 20,
+              "lineWidth": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "analysisTypeId": {
+    "$oid": "66bcf947893debea1659670c"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "66bd0e69d0f92a1d871880fb"
+  },
+  "contentType": [
+    {
+      "text": "",
+      "sample": "header",
+      "margin": [
+        0,
+        10,
+        0,
+        10
+      ]
+    },
+    {
+      "columns": [
+        {
+          "text": "Blank:\nSarfiyat:\nSarfiyat:",
+          "fontSize": 10,
+          "width": "40%",
+          "margin": [
+            30,
+            0,
+            0,
+            5
+          ]
+        },
+        {
+          "canvas": [
+            {
+              "type": "line",
+              "x1": 51,
+              "y1": 5,
+              "x2": 251,
+              "y2": 5,
+              "lineWidth": 1
+            },
+            {
+              "type": "line",
+              "x1": 51,
+              "y1": 30,
+              "x2": 251,
+              "y2": 30,
+              "lineWidth": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "analysisTypeId": {
+    "$oid": "66bd0dafd0f92a1d871880f5"
   },
   "__v": 0
 }]
